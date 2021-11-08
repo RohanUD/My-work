@@ -1,14 +1,44 @@
 *{
+    background-color: var(--background-color);
     font-family: 'Montserrat', sans-serif;
 }
 
 
+:root{
+    --primary-color:#EF4444;
+
+
+}
 
 .container-fluid{
-    width: 100%;
+    padding: 0 1rem;
+
 }
 
 .container{
-    border: 1px solid blue;
-    padding: 0 1rem;
+  max-width: 600px;
+  margin: auto;
+}
+
+.primary-link{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: .5rem 1rem;
+    border-radius: 13px;
+    background-color: var(--primary-color);
+
+}
+.secondary-link{
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: bold;
+    border: 1px solid var(--primary-color);
+    padding: .5rem 1rem;
+    border-radius: 13px;
+
+}
+
+hr{
+    margin: 2rem 0rem;
 }

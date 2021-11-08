@@ -42,3 +42,36 @@
 hr{
     margin: 2rem 0rem;
 }
+
+.unordered{
+    list-style: none;
+}
+
+.inline-items{
+    display: inline;
+    padding: 0rem 1rem;
+    text-decoration: none;
+
+}
+.navigation .container-fluid{
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1.5rem 1rem;
+    border-radius: 7px;
+    
+}
+.navigation a{
+    color: white;
+    text-decoration: none;
+    position: relative;
+
+
+}
+
+.navigation .container-fluid .brand{
+    font-weight: bold;
+}
+
+.navigation .unordered{
+    text-align: right;
+}

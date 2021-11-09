@@ -6,6 +6,9 @@
 
 :root{
     --primary-color:#EF4444;
+    --grey-color:#E5E7EB;
+    ;
+    
 
 
 }
@@ -77,3 +80,48 @@ hr{
 .navigation .unordered{
     text-align: right;
 }
+
+.hero-image{
+    max-width: 400px;
+}
+ h1 .header-line{
+    color: var(--primary-color);
+} 
+
+.section h2 {
+    text-align: center;
+    padding: 1.5rem 0rem;
+    margin: 0px;
+}
+ .section {
+     padding: 1.5rem 0rem;
+     margin: 0px;
+ }
+
+ .ow{
+    background-color: var(--grey-color);
+}
+
+.section p{
+    margin: 0px;
+    text-align: center;
+}
+
+.footer a{
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+.footer,a {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem 0rem;
+}
+
+.heading{
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+
+

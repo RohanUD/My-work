@@ -122,6 +122,10 @@ hr{
     text-align: center;
     font-size: 1.3rem;
 }
+.list-inline{
+    text-align: center;
+    padding-inline-start: 0px;
+}
 
 
 
